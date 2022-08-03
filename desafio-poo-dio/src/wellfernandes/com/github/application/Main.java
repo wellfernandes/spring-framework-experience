@@ -2,7 +2,9 @@ package wellfernandes.com.github.application;
 
 import java.time.LocalDate;
 
+import wellfernandes.com.github.dominio.Bootcamp;
 import wellfernandes.com.github.dominio.Curso;
+import wellfernandes.com.github.dominio.Dev;
 import wellfernandes.com.github.dominio.Mentoria;
 
 public class Main {
@@ -32,6 +34,33 @@ public class Main {
 		mentoria1.setData(LocalDate.now());
 
 		System.out.println(mentoria1);
-		
+
+		Bootcamp bootcamp1 = new Bootcamp();
+		bootcamp1.setNome("bootcamp java developer");
+		bootcamp1.setDescricao("descrição bootcamp java developer");
+		bootcamp1.getConteudos().add(curso1);
+		bootcamp1.getConteudos().add(curso2);
+		bootcamp1.getConteudos().add(mentoria1);
+
+		Dev dev1 = new Dev();
+		dev1.setNome("Dev 1");
+		dev1.inscreverBootCamp(bootcamp1);
+		System.out.println("Conteúdos inscritos do Dev1" + dev1.getConteudosInscritos());
+		dev1.progredir();
+		System.out.println("Conteúdos inscritos do Dev1" + dev1.getConteudosInscritos());
+		System.out.println("Conteúdos concluídos do Dev1" + dev1.getConteudosConcluidos());
+		System.out.println("XP: " + dev1.calcularTotalXp());
+
+		System.out.println("---------------------------------------------");
+
+		Dev dev2 = new Dev();
+		dev2.setNome("Dev 2");
+		dev2.inscreverBootCamp(bootcamp1);
+		System.out.println("Conteúdos inscritos do Dev2" + dev2.getConteudosInscritos());
+		dev2.progredir();
+		System.out.println("Conteúdos inscritos do Dev2" + dev2.getConteudosInscritos());
+		System.out.println("Conteúdos concluídos do Dev2" + dev2.getConteudosConcluidos());
+		dev2.progredir();
+		System.out.println("XP: " + dev2.calcularTotalXp());
 	}
 }
