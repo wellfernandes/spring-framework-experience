@@ -12,5 +12,4 @@ public class Aluno {
 	private String bairro;
 	private LocalDate dataDeNascimento;
 	private List<AvaliacaoFisica> avaliacoes = new ArrayList<>();
-
 }

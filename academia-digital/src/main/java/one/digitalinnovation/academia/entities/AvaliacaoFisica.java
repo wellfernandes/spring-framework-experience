@@ -9,5 +9,4 @@ public class AvaliacaoFisica {
 	private LocalDateTime dataDaAvaliacao = LocalDateTime.now();
 	private Double peso;
 	private Double altura;
-
 }
