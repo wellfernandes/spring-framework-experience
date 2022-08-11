@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import me.dio.academia.digital.entity.form.AvaliacaoFisicaForm;
-import me.dio.academia.digital.service.impl.AvaliacaoFisicaServiceImpl;
 import one.digitalinnovation.academia.entities.AvaliacaoFisica;
+import one.digitalinnovation.academia.entities.form.AvaliacaoFisicaForm;
+import one.digitalinnovation.academia.services.impl.AvaliacaoFisicaServiceImpl;
 
 @RestController
 @RequestMapping("/avaliacoes")

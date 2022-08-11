@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import one.digitalinnovation.academia.entities.Aluno;
 import one.digitalinnovation.academia.entities.AvaliacaoFisica;
+import one.digitalinnovation.academia.entities.form.AlunoForm;
 import one.digitalinnovation.academia.services.impl.AlunoServiceImpl;
 
 @RestController

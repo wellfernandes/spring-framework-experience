@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import me.dio.academia.digital.entity.form.MatriculaForm;
-import me.dio.academia.digital.service.impl.MatriculaServiceImpl;
 import one.digitalinnovation.academia.entities.Matricula;
+import one.digitalinnovation.academia.entities.form.MatriculaForm;
+import one.digitalinnovation.academia.services.impl.MatriculaServiceImpl;
 
 @RestController
 @RequestMapping("/matriculas")
