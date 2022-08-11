@@ -4,6 +4,8 @@ import java.util.List;
 
 import one.digitalinnovation.academia.entities.Aluno;
 import one.digitalinnovation.academia.entities.AvaliacaoFisica;
+import one.digitalinnovation.academia.entities.form.AlunoForm;
+import one.digitalinnovation.academia.entities.form.AlunoUpdateForm;
 
 public interface IAlunoService {
 	/**

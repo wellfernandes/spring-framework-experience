@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import one.digitalinnovation.academia.entities.Aluno;
 import one.digitalinnovation.academia.entities.Matricula;
+import one.digitalinnovation.academia.entities.form.MatriculaForm;
 import one.digitalinnovation.academia.repositories.AlunoRepository;
 import one.digitalinnovation.academia.repositories.MatriculaRepository;
 import one.digitalinnovation.academia.services.IMatriculaService;

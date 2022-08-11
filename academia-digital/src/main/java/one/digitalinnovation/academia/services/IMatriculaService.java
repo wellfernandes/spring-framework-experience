@@ -3,6 +3,7 @@ package one.digitalinnovation.academia.services;
 import java.util.List;
 
 import one.digitalinnovation.academia.entities.Matricula;
+import one.digitalinnovation.academia.entities.form.MatriculaForm;
 
 public interface IMatriculaService {
 	/**

@@ -6,11 +6,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import me.dio.academia.digital.entity.form.AlunoForm;
-import me.dio.academia.digital.entity.form.AlunoUpdateForm;
-import me.dio.academia.digital.infra.utils.JavaTimeUtils;
 import one.digitalinnovation.academia.entities.Aluno;
 import one.digitalinnovation.academia.entities.AvaliacaoFisica;
+import one.digitalinnovation.academia.entities.form.AlunoForm;
+import one.digitalinnovation.academia.entities.form.AlunoUpdateForm;
+import one.digitalinnovation.academia.infra.utils.JavaTimeUtils;
 import one.digitalinnovation.academia.repositories.AlunoRepository;
 import one.digitalinnovation.academia.services.IAlunoService;
 

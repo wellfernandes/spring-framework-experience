@@ -3,6 +3,8 @@ package one.digitalinnovation.academia.services;
 import java.util.List;
 
 import one.digitalinnovation.academia.entities.AvaliacaoFisica;
+import one.digitalinnovation.academia.entities.form.AvaliacaoFisicaForm;
+import one.digitalinnovation.academia.entities.form.AvaliacaoFisicaUpdateForm;
 
 public interface IAvaliacaoFisicaService {
 	/**
